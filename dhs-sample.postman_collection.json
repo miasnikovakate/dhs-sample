@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "42fa5f0c-814e-4338-89ca-da273d249d72",
+		"name": "dhs-sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "facilities",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/facilities",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"facilities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "patients",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/patients",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "practices",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/practices",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"practices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "surgeries",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/surgeries",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"surgeries"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
